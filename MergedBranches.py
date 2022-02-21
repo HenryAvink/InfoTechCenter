@@ -1,10 +1,16 @@
-# WELCOME BRANCH
+# Programmer: Henry Avink
+# Date: 2.21.2022
+# Version: 1.1
 
-# Code Name - Hornet
-
+# Libraries Imported Here
 from time import sleep #Print to one line with time deley between prints
 import colorama
 from colorama import Fore, Back, Style
+import random
+
+# WELCOME BRANCH
+# Code Name - Hornet
+
 colorama.init(strip=False, autoreset=True)
 
 print(Fore.RED + "Welcome to Hornet's InfoTechCenter\n")
@@ -12,9 +18,6 @@ sleep(1)
 print(Fore.RED + "Hornet's Operating System Booting Up")
 
 # GAS BRANCH
-
-import random
-
 
 # Gas Level Function
 
